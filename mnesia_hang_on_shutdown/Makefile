@@ -6,4 +6,4 @@ clean:
 	rm -f *.beam
 
 run:
-	erl -eval 'application:start(foo)'
+	erl -pa ebin -eval 'application:start(foo)'
